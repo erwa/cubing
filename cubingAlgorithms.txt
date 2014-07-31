@@ -180,9 +180,37 @@ r' (d'u) r U2 r' (du') r U2
 
 
 Square-1:
-Separating edges: UB<->DF: (0,-1) / (-3,0) / (4,1) / (-4,-1) / (3,0) / (0,-1)
+Getting back into a cube shape:
+- http://www.jaapsch.net/puzzles/square1.htm#s1m1
+- Gather all 6 corners in one layer. Learn 5 cases.
+4-4: /(2,2)/(0,-1)/(3,3)/
+5-3: /(-4,0)/(-1,-2)/(3,-4)/(2,1)/(0,3)/
+6-2: /(-4,-2)/(-1,4),(-3,0)/
+7-1: /(2,0)/(3,2)/(3,-2)/(2,1)/(0,3)/
+8-0: /(2,4)/(1,2)/(-3,-3)/
+
+Separating edges:
+ UB, DF: (0,-1) / (-3,0) / (4,1) / (-4,-1) / (3,0) / (0,1)
+ UB, UF, DF, DB: (0,-1) / (1,1) / (-1,0)
+ UL, UB, UR, DF, DR, DB: (0,-1) / (1,4) / (-1,-4) / (-3,0) / (4,1) / (-1,0)
+
+Adjacent swap in both layers: /(-3,0)/(3,3)/(0,-3)/
+Diagonal swap in both layers: /(3,-3)/(3,-3)/
+
+J-perm (UFR UFL, UL UF): / (3,-3) / (3,0) / (-3,0) / (0,3) / (-3,0) / [(3,0)]
+
+N-perm (UFR UBL, UF UB): / (3,3) / (3,0) / (3,3) / (3,0) / (3,3) / [(3,0)]
+
 Parity: (UR UL): / (3,3) / (-1,0) / (2,-4) / (4,-2) / (0,-2) / (-4,2) / (1,-5) / (3,0) / (3,3) / (3,0)
 
+1 edge swap in each layer (UB UF, DF DB): (1,0)/(-1,-1)/(6,0)/(1,1)/[(-1,0)]
+
+Clockwise U-perm (UR UL UB): / (3,0) / (1,0) / (0,-3) / (-1,0) / (-3,0) / (1,0) / (0,3) / (-1,0)
+Counterclockwise U-perm (UR UB UL): (1,0) / (0,-3) / (-1,0) / (3,0) / (1,0) / (0,3) / (-1,0) / (-3,0) /
+
+H-perm: / (3,-3) / (3,-3) / (0,1) / (-3,3) / (-3,3) / (-1,0)
+
+Z-perm (UF UL, UR UB): / (3,3) / (0,3) / (1,1) / (-1,-4) / (-3,-3) /
 
 Move Sequence Execution Speeds (Average):
 
