@@ -184,33 +184,61 @@ Getting back into a cube shape:
 - http://www.jaapsch.net/puzzles/square1.htm#s1m1
 - Gather all 6 corners in one layer. Learn 5 cases.
 4-4: /(2,2)/(0,-1)/(3,3)/
-5-3: /(-4,0)/(-1,-2)/(3,-4)/(2,1)/(0,3)/
-6-2: /(-4,-2)/(-1,4),(-3,0)/
-7-1: /(2,0)/(3,2)/(3,-2)/(2,1)/(0,3)/
+5-3 (5 in top-left, 3 in bottom-right):
+  /(-4,0)/(-1,-2)/(3,-4)/(2,1)/(0,3)/
+  /(-4,0)/(-1,-2)/(-3,2)/(-2,-1)/(0,-3)/[(-1,1)]
+6-2 (6 on top): /(-4,-2)/(-1,4),(-3,0)/
+6-2 (6 on bottom): /(-2,-4)/(-1,4)/(0,-3)/
+7-1 (6 on left + top and right): /(2,0)/(3,2)/(3,-2)/(2,1)/(0,3)/
 8-0: /(2,4)/(1,2)/(-3,-3)/
 
 Separating edges:
- UB, DF: (0,-1) / (-3,0) / (4,1) / (-4,-1) / (3,0) / (0,1)
- UB, UF, DF, DB: (0,-1) / (1,1) / (-1,0)
- UL, UB, UR, DF, DR, DB: (0,-1) / (1,4) / (-1,-4) / (-3,0) / (4,1) / (-1,0)
+ UB, DF: (0,-1) / (-3,0) / (4,1) / (-4,-1) / (3,0) / [(0,1)]
+ UB, UF, DF, DB: (1,0) / (-1,-1) / [(0,1)]
+ UL, UB, DB, DR: (1,0) / (-3,0) / (-1,-1) / (4,1) / [(-1,0)]
+ UB, UF, DF, DR: (0,-1) / (3,0) / (-3,0) / (1,-2) / (0,3) / [(-1,0)]
+ UL, UB, UR, DF, DR, DB:
+   (0,-1) / (1,4) / (-1,-4) / (-3,0) / (4,1) / (-1,0)
 
-Adjacent swap in both layers: /(-3,0)/(3,3)/(0,-3)/
-Diagonal swap in both layers: /(3,-3)/(3,-3)/
+Fix parity:
+# https://www.speedsolving.com/forum/showthread.php?9512-Square-1-Parity-Algs
+On top (diag corner swap on top (UFL UBR), H on bottom):
+  /(3,3)/(-1,0)/(-4,2)/(-2,4)/(0,1)/(3,3)/[(0,6)]
+On bottom (H on top, diag corner swap on bottom (DFL DBR)):
+  /(-3,-3)/(0,1)/(-2,4)/(-4,2)/(-1,0)/(-3,-3)/[(6,0)]
+Both (1 edge swap in each layer (UB UF, DF DB)): (1,0) / (5,-1) / (-5,1) / [(5,0)]
 
-J-perm (UFR UFL, UL UF): / (3,-3) / (3,0) / (-3,0) / (0,3) / (-3,0) / [(3,0)]
+### Corner Permutation ###
+Adjacent corner swap in both layers (UFL UFR, UL UF, DFL DFR, DL DF): /(-3,0)/(3,3)/(0,-3)/
+Diagonal corner swap in both layers (UFL UBR, UL UR, DFL DBR, DL DR): /(-3,3)/(3,-3)/
 
-N-perm (UFR UBL, UF UB): / (3,3) / (3,0) / (3,3) / (3,0) / (3,3) / [(3,0)]
+Adjacent swap on top (UFR UBR, UF UR), diagonal swap on bottom (DFR DBL, DF DB): /(0,-3)/(0,3)/(0,-3)/(0,3)/
+Diagonal swap on top (UFL UBR, UL UR), adjacent swap on bottom (DFR DBR, DF DR): /(-3,0)/(3,0)/(-3,0)/(3,0)/
 
-Parity: (UR UL): / (3,3) / (-1,0) / (2,-4) / (4,-2) / (0,-2) / (-4,2) / (1,-5) / (3,0) / (3,3) / (3,0)
+J (UFR UFL, UL UF): / (3,-3) / (3,0) / (-3,0) / (0,3) / (-3,0) / [(3,0)]
+J bottom (DFL DFR, DL DF): / (3,-3) / (0,3) / (-3,0) / (3,0) / (-3,0) / [(0,3)]
 
-1 edge swap in each layer (UB UF, DF DB): (1,0)/(-1,-1)/(6,0)/(1,1)/[(-1,0)]
+N (UBR UFL, UR UL): / (3,3) / (3,0) / (3,3) / (3,0) / (3,3) / [(3,0)]
+N bottom (DFR DBL, DF DB): / (3,3) / (0,3) / (3,3) / (0,3) / (3,3) //[(0,3)]
 
-Clockwise U-perm (UR UL UB): / (3,0) / (1,0) / (0,-3) / (-1,0) / (-3,0) / (1,0) / (0,3) / (-1,0)
-Counterclockwise U-perm (UR UB UL): (1,0) / (0,-3) / (-1,0) / (3,0) / (1,0) / (0,3) / (-1,0) / (-3,0) /
+### Edge Permutation ###
+U1 (UR UL UB): / (3,0) / (1,0) / (0,-3) / (-1,0) / (-3,0) / (1,0) / (0,3) / (-1,0)
+U2 (UR UB UL): (1,0) / (0,-3) / (-1,0) / (3,0) / (1,0) / (0,3) / (-1,0) / (-3,0) /
 
-H-perm: / (3,-3) / (3,-3) / (0,1) / (-3,3) / (-3,3) / (-1,0)
+U1 bottom (DR DL DB):
+  / (0,-3) / (0,-1) / (3,0) / (0,1) / (0,3) / (0,-1) / (-3,0) / (0,1)
+U2 bottom (DR DB DL):
+  (0,-1) / (3,0) / (0,1) / (0,-3) / (0,-1) / (-3,0) / (0,1) / (0,3) /
 
-Z-perm (UF UL, UR UB): / (3,3) / (0,3) / (1,1) / (-1,-4) / (-3,-3) /
+H: / (3,-3) / (3,-3) / (0,1) / (-3,3) / (-3,3) / [(-1,0)]
+H bottom: / (3,-3) / (3,-3) / (-1,0) / (-3,3) / (-3,3) / [(0,1)]
+
+Double H-perm: (1,0) / (5,-1) / (3,3) / (1,1) / (3,-3) / (5,0)
+
+Z: (UF UL, UR UB): / (3,3) / (0,3) / (1,1) / (-1,-4) / (-3,-3) /
+Z bottom (DF DL, DR DB): / (-3,-3) / (-3,0) / (-1,-1) / (4, 1) / (3,3) /
+
+Parity: (UR UL): / (3,3) / (-1,0) / (2,-4) / (4,-2) / (0,-2) / (-4,2) / (1,-5) / (3,0) / (3,3) / [(3,0)]
 
 Move Sequence Execution Speeds (Average):
 
