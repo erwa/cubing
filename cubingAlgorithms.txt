@@ -87,9 +87,15 @@ R2: (R2 B' R' U') (R' U R B R' U2) (R U2) (R' U') - /| starts with right hand th
 T: (R, U, R', U') (R', F, R2, U') (R', U', R, U, R', F')
 U1: R2 U R U R' U' R' U' R' U R'
 V: (R' U R' U') y (R' F' R2 U') (R' U R') (F R F)
-Y:
-(F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F') - keep your left hand thumb light while gripping
-(R2 U' R' U R U') z'y' (L' U') (R U' R') (U' L U)
+* Y:
+  ```
+  # keep your left hand thumb light while gripping
+  (F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F')
+
+  (R2 U' R' U R U') z'y' (L' U') (R U' R') (U' L U)
+
+  F R U' R' U' R U y R U R' B' R U' R2
+  ```
 Z:
  x' (R U' R' U) (D R' D U') (R' U R z') (R2' F)
  (U R' U' R U' R) (U R U' R' U R) U (R2 U' R' U)
