@@ -46,6 +46,8 @@ Triangle, strips on L and R: (r' R U) (R U R' U') (r R2' F R F')
 Dot, bar on L: (F R U R' U' F') f (R U R' U' f')
 Dot, bar on L and R: (R U2' R2' F R F') U2 (R' F R F')
 
+Bad I (hold sideways): F (R U R' U') R F' (r U R' U') r'
+
 U: R2 D' R U2 R' D R U2 R
 Stripes: z' (U' R U2 r' U) L2 (U' r U2 R' U) z
 L, 2 pairs: F U R U' R2 F' R U R U' R'
