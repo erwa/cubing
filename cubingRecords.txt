@@ -486,6 +486,7 @@ Average:
 Single:
  48.02 - Scramble: R2 Uw' R2 Fw' L2 D2 Uw' R2 U Fw2 Rw2 R F U R2 Uw Rw' F2 L' Rw2 Uw2 B2 Fw2 F L2 R2 Fw' L Fw D' L' Uw2 L' Uw' B' D' U2 L2 Rw' R' - PLL parity PLL, done on my DaYan+mf8  10/17/11
  48.98 - Scramble: D Uw U2 L2 Rw' Uw U2 B' F' R2 F2 D2 L' Rw' B' Fw2 F' D' L' B' Fw2 F' Rw' R' Fw' D Uw U L2 Uw U2 Rw' Uw Rw Fw' Uw R2 Uw' U' Fw2 - done in same session as 50.85  9/8/11
+ 48.98 - Scramble: f u r B2 f' U' u L2 f' F' L2 U r' U' u F D' R' f2 u2 r F2 u2 U F2 u' D R F2 f' R' U u2 F' D' F L' r2 U u  8/7/16
  50.85 - Scramble: F L2 Fw' F D L B L U Rw Uw L' B Rw' U B L' Rw2 R Uw2 B' U' B' Fw' F2 L2 Fw L2 Rw' R' F D2 Uw2 B' Fw F' D Rw2 Uw B'  9/8/11
  51.15 - Scramble: R' Uw L Fw2 L2 B' Fw' D Rw' B2 Fw F L2 Fw' U2 R' B2 F2 D U L' R' Uw Fw2 D2 Fw2 Rw' B' Fw' F' Rw F D' Uw' B' R2 Fw' L U' R2  9/3/11
  51.88 - Scramble: D Fw D U R' B' L2 R B2 Fw' D' R Uw2 U R B2 Fw' L Uw2 F2 L2 R' U Fw F' Rw' B Fw2 F2 R B2 F' D Uw' U' B2 D Uw' U2 F - OLL parity  9/6/11

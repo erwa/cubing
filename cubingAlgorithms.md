@@ -34,7 +34,7 @@ OLL:
 Only edges flipped:
 2 adjacent edges flipped (UB and UL): (M' U M) U2 (M' U M)
 2 opposite edges flipped (UB and UF): (R U R' U') (M' U R U' r')
-4-edge flipper: (r' R U) (R U R' U' r2 R2') (U R U' r')
+4-edge flipper: (r' R U) (R U R' U') (r2 R2' U R U' r')
 
 
 Only corners flipped:
@@ -69,21 +69,28 @@ F:
  (R U' R' U R2') y (R U R' U') x (U' R' U) (R U2')  3/27/10
  (R' U R U' R2' F' U' F) (U R U') x' (R2 U' R' U)
 G1: (R U R') y' (R2 u' R) (U' R' U R' u R2) - /``|
-G2: (R' U' R) y (R2 u R') (U R U' R u' R2) - \.|.
-G3:
- (R2 u' R U') (R U R' u R2) y (R U' R') - .``\. starts with right hand thumb on B face
+G2:
+ (R' U' R) y (R2 u R') (U R U' R u' R2) - \.|.
  (D R' U' R U D') (R2 U R') (U R U' R U' R2' U') - "French G"
-G4:
- (R2 u R') (U R' U' R u') R2 y' (R' U R)
- D' (R2 U R') (U R' U' R U' R2 U' D) (R' U R U) - "French G"
+G3:
+* (R2 u' R U') (R U R' u R2) y (R U' R') - .``\. starts with right hand thumb on B face
+* one-handed (pair at UR and URB): R' U' R z x' U2 r U' R U R' U r' U2
+G4 (pair at UF and UFR):
+* (R2 u R') (U R' U' R u') R2 y' (R' U R)
+* D' (R2 U R') (U R' U' R U' R2 U' D) (R' U R U) - "French G"
+* one-handed (pair at RB and RBU): U2 r U' R U' R' U r' U2 x' U' R U
 J1:
  (R U R' F' R) (U R' U') (R' F R2 U' R' U')
  R' U L U' R U2 L' U L U2 L'
 J2:
  x' (R' F' R) (U R' F' R) (F R U') (R2 F R F)
  L U' R' U L' U2 R U' R' U2 R
-N1: (R U' R' U l U) (F U' R' F' R U') (R U R' F R')
-N2: (R' U R U' R' F') (U' F R U R') (F R') (F' R U' R)
+N1:
+ (z) R (U R' D R2 U' R D')2 (z')  8/13/16
+ (R U' R' U l U) (F U' R' F' R U') (R U R' F R')
+N2:
+ (z) R' (U' R D' R2' U R' D)2 (z')  8/13/16
+ (R' U R U' R' F') (U' F R U R') (F R') (F' R U' R)
 R1: (R' U2) (R U2) (R' F R U R' U') (R' F' R2 U')
 R2: (R2 B' R' U') (R' U R B R' U2) (R U2) (R' U') - /| starts with right hand thumb on D face
 T: (R, U, R', U') (R', F, R2, U') (R', U', R, U, R', F')
