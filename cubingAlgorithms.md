@@ -61,54 +61,67 @@ Two AntiSune: (R', U', R, U', R', U2, [R2), U, R', U, R, U2, R'] - really two Su
 OLL complete, diagonal corners swapped: R2 D L' B L D' R2 U' F' U' F
 
 PLL:
+
 A1: x R' U R' D2 R U' R' D2 R2 x'
+
 A2:
- x' R U' R D2 R' U R D2 R2 x
- (R B' R) F2 (R' B R) F2 R2
+* x' R U' R D2 R' U R D2 R2 x
+* (R B' R) F2 (R' B R) F2 R2
+
 F:
- (R U' R' U R2') y (R U R' U') x (U' R' U) (R U2')  3/27/10
- (R' U R U' R2' F' U' F) (U R U') x' (R2 U' R' U)
-G1: (R U R') y' (R2 u' R) (U' R' U R' u R2) - /``|
+* (R U' R' U R2') y (R U R' U') x (U' R' U) (R U2')  3/27/10
+* (R' U R U' R2' F' U' F) (U R U') x' (R2 U' R' U)
+
+G1: (R U R') y' (R2 u' R) (U' R' U R' u R2)
+
 G2:
- (R' U' R) y (R2 u R') (U R U' R u' R2) - \.|.
- (D R' U' R U D') (R2 U R') (U R U' R U' R2' U') - "French G"
+* (R' U' R) y (R2 u R') (U R U' R u' R2)
+* (D R' U' R U D') (R2 U R') (U R U' R U' R2' U') - "French G"
+
 G3:
 * (R2 u' R U') (R U R' u R2) y (R U' R') - .``\. starts with right hand thumb on B face
 * one-handed (pair at UR and URB): R' U' R z x' U2 r U' R U R' U r' U2
+
 G4 (pair at UF and UFR):
 * (R2 u R') (U R' U' R u') R2 y' (R' U R)
 * D' (R2 U R') (U R' U' R U' R2 U' D) (R' U R U) - "French G"
 * one-handed (pair at RB and RBU): U2 r U' R U' R' U r' U2 x' U' R U
+
 J1:
- (R U R' F' R) (U R' U') (R' F R2 U' R' U')
- R' U L U' R U2 L' U L U2 L'
+* (R U R' F' R) (U R' U') (R' F R2 U' R' U')
+* R' U L U' R U2 L' U L U2 L'
+
 J2:
- x' (R' F' R) (U R' F' R) (F R U') (R2 F R F)
- L U' R' U L' U2 R U' R' U2 R
+* x' (R' F' R) (U R' F' R) (F R U') (R2 F R F)
+* L U' R' U L' U2 R U' R' U2 R
+
 N1:
- (z) R (U R' D R2 U' R D')2 (z')  8/13/16
- (R U' R' U l U) (F U' R' F' R U') (R U R' F R')
+* (z) R (U R' D R2 U' R D')2 (z')  8/13/16
+* (R U' R' U l U) (F U' R' F' R U') (R U R' F R')
+
 N2:
- (z) R' (U' R D' R2' U R' D)2 (z')  8/13/16
- (R' U R U' R' F') (U' F R U R') (F R') (F' R U' R)
+* (z) R' (U' R D' R2' U R' D)2 (z')  8/13/16
+* (R' U R U' R' F') (U' F R U R') (F R') (F' R U' R)
+
 R1: (R' U2) (R U2) (R' F R U R' U') (R' F' R2 U')
+
 R2: (R2 B' R' U') (R' U R B R' U2) (R U2) (R' U') - /| starts with right hand thumb on D face
+
 T: (R, U, R', U') (R', F, R2, U') (R', U', R, U, R', F')
+
 U1: R2 U R U R' U' R' U' R' U R'
+
 V: (R' U R' U') y (R' F' R2 U') (R' U R') (F R F)
+
 Y:
-  ```
-  # keep your left hand thumb light while gripping
-  (F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F')
+* (F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F') - keep your left hand thumb light while gripping
+* (R2 U' R' U R U') z'y' (L' U') (R U' R') (U' L U)
+* F R U' R' U' R U y R U R' B' R U' R2
 
-  (R2 U' R' U R U') z'y' (L' U') (R U' R') (U' L U)
-
-  F R U' R' U' R U y R U R' B' R U' R2
-  ```
 Z:
- M2 U M2 U M' U2 M2 U2 M' U2 - swaps (UF UR) (UL UB)
- x' (R U' R' U) (D R' D U') (R' U R z') (R2' F)
- (U R' U' R U' R) (U R U' R' U R) U (R2 U' R' U)
+* M2 U M2 U M' U2 M2 U2 M' U2 - swaps (UF UR) (UL UB)
+* x' (R U' R' U) (D R' D U') (R' U R z') (R2' F)
+* (U R' U' R U' R) (U R U' R' U R) U (R2 U' R' U)
 
 One-handed:
 Left-handed:
