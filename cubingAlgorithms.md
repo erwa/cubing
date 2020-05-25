@@ -1,7 +1,7 @@
 ### Skewb
 
-* [default]: http://meep.cubing.net/skewb-fcn.html
-* [Strong]: http://sarah.cubing.net/skewb/my-method#section/notation-and-algs
+* default: http://meep.cubing.net/skewb-fcn.html
+* Strong: http://sarah.cubing.net/skewb/my-method#section/notation-and-algs
 
 ### CLL/EG
 
