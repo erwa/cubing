@@ -1,7 +1,10 @@
-Skewb
-[default]: http://meep.cubing.net/skewb-fcn.html
-[Strong]: http://sarah.cubing.net/skewb/my-method#section/notation-and-algs
-CLL/EG:
+### Skewb
+
+* [default]: http://meep.cubing.net/skewb-fcn.html
+* [Strong]: http://sarah.cubing.net/skewb/my-method#section/notation-and-algs
+
+### CLL/EG
+
 Pi (RFU, LUF, BUL, BRU): [Strong] R' F R F'
 Peanut (FLU, RUB): [Strong] R' F R F' y R' F R F'
 Diag: L U' R' U R' L R' L
@@ -15,13 +18,17 @@ Z (F<->L, R<->B): R L' U' L U L R L' R  6/9/14
 H (U<->D, R<->L): R U' L U' R' L U' L  6/9/14
 
 
-2x2x2
+### 2x2x2
+
 Triple Sune:
+
+```
  `| - F' (R U R' U') R' F R
  |` - F (L' U' L U) L F' L'
+```
 
 
-3x3x3
+### 3x3x3
 
 F2L:
 Edge solved, corner in slot, twisted cc, at DFR: (R U2) (R U R') U (R U2 R2)
@@ -31,20 +38,23 @@ Edge solved, corner in slot, twisted c, at DFL: (L' U2) (L' U' L) (U' L' U2 L2)
 
 
 OLL:
+
 Only edges flipped:
-2 adjacent edges flipped (UB and UL): (M' U M) U2 (M' U M)
-2 opposite edges flipped (UB and UF): (R U R' U') (M' U R U' r')
-4-edge flipper: (r' R U) (R U R' U') (r2 R2' U R U' r')
+
+* 2 adjacent edges flipped (UB and UL): (M' U M) U2 (M' U M)
+* 2 opposite edges flipped (UB and UF): (R U R' U') (M' U R U' r')
+* 4-edge flipper: (r' R U) (R U R' U') (r2 R2' U R U' r')
 
 
 Only corners flipped:
-UFL flipped cc, UBR flipped c: x U R' U' L U R U' L' x'
-UFR flipped cc, UBL flipped c: x U' L U R' U' L' U R x'
-Diagonal stripe, strips on B and L: (R U R') U (R' F R F') U2 (R' F R F')
-Triangle, bar on B: F (R U R') (U y') (R' U2) (R' F R F')
-Triangle, strips on L and R: (r' R U) (R U R' U') (r R2' F R F')
-Dot, bar on L: (F R U R' U' F') f (R U R' U' f')
-Dot, bar on L and R: (R U2' R2' F R F') U2 (R' F R F')
+
+* UFL flipped cc, UBR flipped c: x U R' U' L U R U' L' x'
+* UFR flipped cc, UBL flipped c: x U' L U R' U' L' U R x'
+* Diagonal stripe, strips on B and L: (R U R') U (R' F R F') U2 (R' F R F')
+* Triangle, bar on B: F (R U R') (U y') (R' U2) (R' F R F')
+* Triangle, strips on L and R: (r' R U) (R U R' U') (r R2' F R F')
+* Dot, bar on L: (F R U R' U' F') f (R U R' U' f')
+* Dot, bar on L and R: (R U2' R2' F R F') U2 (R' F R F')
 
 Bad I (hold sideways): F (R U R' U') R F' (r U R' U') r'
 
