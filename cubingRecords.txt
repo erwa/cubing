@@ -18,6 +18,7 @@
  6.59 = 7.30, (10.06), 6.04, (3.55), 6.44 - former American record (5/27/06-6/17/07)  Trumbull Spring competition 2006  5/27/06
 
 3x3 speedsolve single:
+ 8.54 - Scramble: D U2 B F' D' B2 F L B2 F D U' R D' U' B' F' U2 B2 F' L D' B U' F2 - full-step, non-lucky.  9/22/11
  9.75 - Scramble: U' F2 R2 D' R2 U2 L B2 L R2 D L' B U R2 D2 R D2 U2. Solution: (red cross) x2 z F2 R' F' U2 R' U R U' R' U' R R U' R' y' U' R2 U2 R' U' R U' R2 y' R U' R' U' F U R U' R' F' R U R' y' R2 u' R U' R' U R' u R2 U2  Yale Fall 2011 final round fourth solve  9/10/11
  9.94  Princeton Fall 2011 final round 2nd solve  9/24/11
  10.75  Yale Fall 2011 first round fifth solve  9/10/11
