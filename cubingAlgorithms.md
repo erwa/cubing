@@ -122,7 +122,9 @@ T: (R, U, R', U') (R', F, R2, U') (R', U', R, U, R', F')
 
 U1: R2 U R U R' U' R' U' R' U R'
 
-V: (R' U R' U') y (R' F' R2 U') (R' U R') (F R F)
+V:
+* (R' U R' U') y (R' F' R2 U') (R' U R') (F R F)
+* (R' U R U' R' f' U') (R U2 R' U' R U' R' f R)  7/9/21
 
 Y:
 * (F R U') (R' U' R U) (R' F') (R U R' U') (R' F R F') - keep your left hand thumb light while gripping
