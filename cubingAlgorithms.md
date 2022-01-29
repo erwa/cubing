@@ -56,8 +56,10 @@ Only corners flipped:
 * Dot, bar on L: (F R U R' U' F') f (R U R' U' f')
 * Dot, bar on L and R: (R U2' R2' F R F') U2 (R' F R F')
 
-Bad I (hold sideways): F (R U R' U') R F' (r U R' U') r'
-Good I (vertical, bar on right): (R' U' R U' R' U) y' (R' U R B)
+I shapes:
+
+* Bad I (hold sideways): F (R U R' U') R F' (r U R' U') r'
+* Good I (vertical, bar on right): (R' U' R U' R' U) y' (R' U R B)
 
 U: R2 D' R U2 R' D R U2 R
 Stripes: z' (U' R U2 r' U) L2 (U' r U2 R' U) z
