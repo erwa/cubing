@@ -50,6 +50,9 @@ Only corners flipped:
 
 * UFL flipped cc, UBR flipped c: x U R' U' L U R U' L' x'
 * UFR flipped cc, UBL flipped c: x U' L U R' U' L' U R x'
+
+4 edges flipped:
+
 * Diagonal stripe, strips on B and L: (R U R') U (R' F R F') U2 (R' F R F')
 * Triangle, bar on B: F (R U R') (U y') (R' U2) (R' F R F')
 * Triangle, strips on L and R: (r' R U) (R U R' U') (r R2' F R F')
@@ -61,10 +64,17 @@ I shapes:
 * Bad I (hold sideways): F (R U R' U') R F' (r U R' U') r'
 * Good I (vertical, bar on right): (R' U' R U' R' U) y' (R' U R B)
 
-U: R2 D' R U2 R' D R U2 R
-Stripes: z' (U' R U2 r' U) L2 (U' r U2 R' U) z
-L, 2 pairs: F U R U' R2 F' R U R U' R'
-Y: R U R' U' R' F R2 U R' U' F'
+C shapes:
+
+* C with bar on R: R' U' R' F R F' U R (execute as R' U' l' U l F' U R)
+* C pointing down, no bars:
+    * R U R' U' y R' F' L F L' R
+    * L' U' L U y' L F R' F' R L'
+
+* U: R2 D' R U2 R' D R U2 R
+* Stripes: z' (U' R U2 r' U) L2 (U' r U2 R' U) z
+* L, 2 pairs: F U R U' R2 F' R U R U' R'
+* Y: R U R' U' R' F R2 U R' U' F'
 
 
 CLL:
@@ -100,19 +110,20 @@ G4 (pair at UF and UFR):
 * D' (R2 U R') (U R' U' R U' R2 U' D) (R' U R U) - "French G"
 * one-handed (pair at RB and RBU): U2 r U' R U' R' U r' U2 x' U' R U
 
-J1:
+Ja:
+* x' (R' F' R) (U R' F' R) (F R U') (R2 F R F)
+* L U' R' U L' U2 R U' R' U2 R
+* x R2 F R F' R U2 r' U r U2 or l2' U l F' R U2 r' U r U2 where U2s are done with left hand index-middle 8/4/21
+
+Jb:
 * (R U R' F' R) (U R' U') (R' F R2 U' R' U')
 * R' U L U' R U2 L' U L U2 L'
 
-J2:
-* x' (R' F' R) (U R' F' R) (F R U') (R2 F R F)
-* L U' R' U L' U2 R U' R' U2 R
-
-N1:
+Na:
 * (z) R (U R' D R2 U' R D')2 (z')  8/13/16
 * (R U' R' U l U) (F U' R' F' R U') (R U R' F R')
 
-N2:
+Nb:
 * (z) R' (U' R D' R2' U R' D)2 (z')  8/13/16
 * (R' U R U' R' F') (U' F R U R') (F R') (F' R U' R)
 

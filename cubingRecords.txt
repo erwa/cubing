@@ -19,6 +19,8 @@
 
 3x3 speedsolve single:
  8.54 - Scramble: D U2 B F' D' B2 F L B2 F D U' R D' U' B' F' U2 B2 F' L D' B U' F2 - full-step, non-lucky.  9/22/11
+ 8.90 - Scramble: R F L U' B L2 B2 R' D' L U2 L2 F' B2 L2 F R2 D2 F R2 F x' y'
+   Solution: x2 z U' R2 F' R F2 R' F' U' R U' R' U R U' R' y U2 R U' R' U R U' R' U R' U' R U R' U' R U2 R' F R U R' U' F' U R U (PLL skip) - 42 turns (4.7 turns/s)  2/6/22
  9.75 - Scramble: U' F2 R2 D' R2 U2 L B2 L R2 D L' B U R2 D2 R D2 U2. Solution: (red cross) x2 z F2 R' F' U2 R' U R U' R' U' R R U' R' y' U' R2 U2 R' U' R U' R2 y' R U' R' U' F U R U' R' F' R U R' y' R2 u' R U' R' U R' u R2 U2  Yale Fall 2011 final round fourth solve  9/10/11
  9.94  Princeton Fall 2011 final round 2nd solve  9/24/11
  10.75  Yale Fall 2011 first round fifth solve  9/10/11
